@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Koala Matching Game</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1><img src="img/icon-koala.svg" alt="Koala Icon"/>Koala Matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            <ul class="stars">
+                <li>
+                    <i class="fa fa-star"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star"></i>
+                </li>
+                <li>
+                    <i class="fa fa-star"></i>
+                </li>
+            </ul>
+
+            <span class="moves">0</span> <span>Moves</span>
+
+            
+            <div id="timer">00:00:00</div>
+            <div class="restart">
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+
+        <ul class="deck">
+            <li class="card" data-match="koala-1">
+                <img src="img/koala/koala-1.jpg" alt="Koala Image 1 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-1">
+                <img src="img/koala/koala-1.jpg" alt="Koala Image 1 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-2">
+                <img src="img/koala/koala-2.jpg" alt="Koala Image 2 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-2">
+                <img src="img/koala/koala-2.jpg" alt="Koala Image 2 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-3">
+                <img src="img/koala/koala-3.jpg" alt="Koala Image 3 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-3">
+                <img src="img/koala/koala-3.jpg" alt="Koala Image 3 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-4">
+                <img src="img/koala/koala-4.jpg" alt="Koala Image 4 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-4">
+                <img src="img/koala/koala-4.jpg" alt="Koala Image 4 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-5">
+                <img src="img/koala/koala-5.jpg" alt="Koala Image 5 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-5">
+                <img src="img/koala/koala-5.jpg" alt="Koala Image 5 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-6">
+                <img src="img/koala/koala-6.jpg" alt="Koala Image 6 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-6">
+                <img src="img/koala/koala-6.jpg" alt="Koala Image 6 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-7">
+                <img src="img/koala/koala-7.jpg" alt="Koala Image 7 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-7">
+                <img src="img/koala/koala-7.jpg" alt="Koala Image 7 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-8">
+                <img src="img/koala/koala-8.jpg" alt="Koala Image 8 by Ryuu @ryuu8964">
+            </li>
+            <li class="card" data-match="koala-8">
+                <img src="img/koala/koala-8.jpg" alt="Koala Image 8 by Ryuu @ryuu8964">
+            </li>
+        </ul>
+    </div>
+
+    <div class="full-screen full-screen--won">
+        <div class="full-screen__container">
+            <div class="full-screen__stars"></div>
+            <h1 class="full-screen__title">Congratulations!</h1>
+            <h2 class="full-screen__subtitle">You are Koalafied in <span class="full-screen__timer"></span> seconds!</h2>
+            <div class="full-screen__image">
+                <img src="img/koalafied.jpg" alt="Koalafied Image by LiteralPrint https://www.etsy.com/listing/487072337/this-koala-bear-is-highly-koala-fied">
+            </div>
+            <div class="full-screen__button">
+                <i class="fa fa-refresh" aria-hidden="true"></i>Start Again!
+            </div>
+        </div>
+        <div class="full-screen__close"><i class="fa fa-times" aria-hidden="true"></i></div>
+    </div>
+
+    <script src="js/easytimer.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
